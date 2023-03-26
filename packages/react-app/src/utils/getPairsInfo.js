@@ -21,7 +21,7 @@ export async function getPairsInfo(pairAddresses, web3) {
       token0Address,
       token1Address,
       token0Name,
-      token1Name
+      token1Name,
     });
   }
 

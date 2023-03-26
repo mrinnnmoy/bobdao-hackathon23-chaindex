@@ -1,7 +1,8 @@
 import React from "react";
 import { useEthers } from "@usedapp/core";
-import { usePools } from "./hooks";
+
 import styles from "./styles";
+import { usePools } from "./hooks";
 import { chaindexLogo } from "./assets";
 import { Exchange, Loader, WalletButton } from "./components";
 
@@ -15,7 +16,7 @@ const App = () => {
         <header className={styles.header}>
           <img
             src={chaindexLogo}
-            alt="chaindex-Logo"
+            alt="Chaindex-logo"
             className="w-16 h-16 object-contain"
           />
           <WalletButton />
